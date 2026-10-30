@@ -49,12 +49,12 @@ rustls = { version = "0.23.45", default-features = false, features = ["std"] }
 chrono = { version = "0.4.45", default-features = false, features = ["clock", "std"] }
 tokio = { version = "1.53.2", features = ["process", "time", "rt", "macros", "net"] }
 regex = "1.13.1"
-open = "5.4.4"
+open = "5.4.5"
 axum = { version = "0.8.9", default-features = false, features = ["http1", "tokio", "query", "json"] }
 
 [target.'cfg(target_os = "macos")'.dependencies]
-libc = "0.2.190"
-objc2 = "0.6.4"
+libc = "0.2.191"
+objc2 = "0.6.5"
 objc2-foundation = { version = "0.3.2", features = ["NSGeometry", "objc2-core-foundation"] }
 block2 = "0.6.2"
 tauri-nspanel = { git = "https://github.com/ahkohd/tauri-nspanel", rev = "6e595d776e9ac594b73e5a180155800f4da6c87d" }
